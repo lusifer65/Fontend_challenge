@@ -15,13 +15,13 @@ body {
   font-size: 15px;
   position: absolute;
   top: 50%;
-  left:50%;
-  -ms-transform: translateY(-50%,-50%);
-  transform: translate(-50%,-50%);
+  left: 50%;
+  -ms-transform: translateY(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .card {
-  width: 300px;
+  width: 330px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -30,24 +30,24 @@ body {
   background-color: #fff;
   border-radius: 10px;
   gap: 30px;
-  
 }
 
 #QR {
-  width: 260px;
-  height: 260px;
+  width: 290px;
+  height: 290px;
   border-radius: 10px;
 }
 
 .card .heading {
   text-align: center;
   width: 100%;
-  font: 700 17px "Outfit", sans-serif;
+  font: 700 22px "Outfit", sans-serif;
 }
 
 .card .text {
   text-align: center;
   width: 100%;
-  font: 500 15px "Outfit", sans-serif;
+  font: 500 17px "Outfit", sans-serif;
   color: var(--blue);
+  margin-bottom: 10px;
 }
