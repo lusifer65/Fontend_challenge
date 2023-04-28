@@ -1,0 +1,53 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --gray: hsl(212, 45%, 89%);
+  --blue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--gray);
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -ms-transform: translateY(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.card {
+  width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: 30px;
+  
+}
+
+#QR {
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.card .heading {
+  text-align: center;
+  width: 100%;
+  font: 700 17px "Outfit", sans-serif;
+}
+
+.card .text {
+  text-align: center;
+  width: 100%;
+  font: 500 15px "Outfit", sans-serif;
+  color: var(--blue);
+}
