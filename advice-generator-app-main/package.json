@@ -2,7 +2,6 @@
   "name": "advice-generator-app-main",
   "version": "1.0.0",
   "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
