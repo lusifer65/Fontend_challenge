@@ -21,7 +21,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 2rem 3rem;
-  background-color: hsl(217, 19%, 38%);
+  background-color: hsl(217, 19%, 24%);
   border-radius: 1rem;
   gap: 1rem;
 
@@ -40,27 +40,28 @@ main {
   }
   .advice {
     text-align: center;
-    min-height: 24vh;
+    min-height: 26vh;
     font-size: 2rem;
     word-spacing: 4px;
     display: flex;
     align-items: center;
 
     @media(max-device-width:375px){
-      min-height: 40vh;
+      min-height: 42vh;
     }
   }
 
   .divider {
     svg {
       color: hsl(193, 38%, 86%);
+      margin-bottom: 5px;
     }
   }
 
   .dice {
     background-color: hsl(150, 100%, 66%);
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
     display: grid;
     place-items: center;
     border-radius: 50%;
