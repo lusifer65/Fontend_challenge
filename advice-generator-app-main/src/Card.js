@@ -24,9 +24,9 @@ const Card = () => {
   return (
     <React.Fragment>
       <p>ADVICE #{advice.id}</p>
-      <div className="advice">
+      <h1 className="advice">
         <q>{advice.advice}</q>
-      </div>
+      </h1>
 
       <div className="divider">
         {size > 375 ? <Desktop_Divider /> : <Mobile_Divider />}
