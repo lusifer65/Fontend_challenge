@@ -1,0 +1,114 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --drakCyan: hsl(184, 100%, 22%);
+  --veryDarkCyan: hsl(179, 100%, 13%);
+  --transparentWhite: hsla(0, 0%, 100%, 0.75);
+  --lightGray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--lightGray);
+  display: grid;
+  place-items: center;
+  width: 100%;
+  font-size: 15px;
+  color: var(--transparentWhite);
+  min-height: 100vh;
+}
+
+main {
+  margin: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-radius: 10px;
+  justify-content: center;
+  @media screen and (max-width: 375px) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 275px;
+  gap: 2rem;
+}
+
+main section img {
+  width: 4rem;
+}
+main section h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: var(--lightGray);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+main section p {
+  line-height: 24px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main section button {
+  width: 67%;
+  padding: 11px;
+  border-radius: 21px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 2rem;
+}
+
+.div1 {
+  background-color: var(--orange);
+}
+.div1 button {
+  color: var(--orange);
+  border: 2px solid var(--orange);
+
+}
+.div1 button:hover{
+  box-sizing: border-box;
+  color: white;
+  background-color: var(--orange);
+  border: 2px solid white;
+}
+
+.div2 {
+  background-color: var(--drakCyan);
+
+}
+.div2 button {
+  color: var(--drakCyan);
+  border: 2px solid var(--drakCyan);
+}
+
+.div2 button:hover{
+  box-sizing: border-box;
+  color: white;
+  background-color: var(--drakCyan);
+  border: 2px solid white;
+}
+
+.div3 {
+  background-color: var(--veryDarkCyan);
+}
+.div3 button {
+  color: var(--veryDarkCyan);
+  border: 2px solid var(--veryDarkCyan);
+}
+.div3 button:hover{
+  box-sizing: border-box;
+  color: white;
+  background-color: var(--veryDarkCyan);
+  border: 2px solid white;
+}
